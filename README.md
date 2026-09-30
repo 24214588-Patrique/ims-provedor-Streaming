@@ -2,7 +2,7 @@
 
 Site institucional + API + Painel Admin completo.
 
-### Checklist Professor - 100% OK
+### Checklist  
 - Framework Web: React + Express ✅
 - Banco: PostgreSQL com schema.sql em backend/db/schema.sql ✅
 - Javascript Front e Back ✅
