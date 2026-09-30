@@ -68,3 +68,5 @@ npm run dev -- --host 0.0.0.0 # roda em http://localhost:5173
 ## 📦 Tecnologias
 
 React, Node.js, Express, PostgreSQL, Jest, Vercel, Docker
+>>>>>>> c406af2 (docs: adiciona endpoints, admin e banco)
+
