@@ -3,3 +3,5 @@ auth_info_baileys
 .env
 dist
 node_modules
+build
+ Set-Content -Path .gitignore -Encoding utf8
