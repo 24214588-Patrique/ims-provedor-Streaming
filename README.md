@@ -38,3 +38,7 @@ npm test     # roda os 5 testes
 cd ../frontend
 npm install
 npm run dev -- --host 0.0.0.0 # roda em http://localhost:5173
+
+# 5. pagina do admin
+Login admin: /admin - admin / EuAmo@MegaTv2026!
+como acessar o login exemplo: http://localhost:5173/admin
