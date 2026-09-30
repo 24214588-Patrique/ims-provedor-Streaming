@@ -38,7 +38,32 @@ npm test     # roda os 5 testes
 cd ../frontend
 npm install
 npm run dev -- --host 0.0.0.0 # roda em http://localhost:5173
+## API Endpoints
 
-# 5. pagina do admin
-Login admin: /admin - admin / EuAmo@MegaTv2026!
-como acessar o login exemplo: http://localhost:5173/admin
+| Método | Rota | Descrição |
+|--------|------|-----------|
+| GET | /api/planos | Lista planos |
+| GET | /api/clientes | Lista clientes |
+| POST | /api/faturas | Cria fatura |
+| POST | /api/auth/login | Login admin |
+| GET | /api/equipamentos | Lista equipamentos |
+
+## Acesso Admin
+
+- **URL:** /admin
+- **Usuário:** admin
+- **Senha:** EuAmo@MegaTv2026!
+
+## 🗄️ Banco de Dados
+
+- **Arquivo:** `backend/db/schema.sql`
+- **Tabelas:** planos, clientes, faturas, equipamentos
+
+## 👥 Colaboradores
+
+- Patrique - 24214588
+- devtistella - Colaborador
+
+## 📦 Tecnologias
+
+React, Node.js, Express, PostgreSQL, Jest, Vercel, Docker
