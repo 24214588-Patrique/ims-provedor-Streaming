@@ -64,6 +64,7 @@ npm run dev -- --host 0.0.0.0 # roda em http://localhost:5173
 
 - Patrique - 24214588
 - devtistella - Colaborador
+- André Fernandes Guirro - Colaborador
 
 ## 📦 Tecnologias
 
