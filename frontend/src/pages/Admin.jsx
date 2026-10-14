@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react"
-const API = "http://192.168.18.99:3001/api"
+const API = "http://${windows.location.hostname}:3001/api"
 
 export default function AdminCompleto() {
   const [token, setToken] = useState(localStorage.getItem('admin_token'))
@@ -37,17 +37,17 @@ export default function AdminCompleto() {
         <div style={{background:'#111', padding:32, borderRadius:20, width:380, border:'1px solid #222', textAlign:'center'}}>
           <div style={{fontSize:40}}>🔒</div>
           <h2 style={{color:'#fff', marginTop:10}}>Admin Infinity Maxx</h2>
-          <p style={{color:'#666', fontSize:12, marginTop:5}}>admin / EuAmo@MegaTv2026!</p>
+          <p style={{color:'#688', fontSize:12, marginTop:5}}>FAÇA LOGIN</p>
           <input placeholder="Usuário" value={user} onChange={e=>setUser(e.target.value)} style={{width:'100%', padding:12, marginTop:16, borderRadius:10, background:'#000', border:'1px solid #333', color:'#fff'}} />
           <input placeholder="Senha" type="password" value={pass} onChange={e=>setPass(e.target.value)} style={{width:'100%', padding:12, marginTop:10, borderRadius:10, background:'#000', border:'1px solid #333', color:'#fff'}} />
           <button onClick={async ()=>{
-            if(user==='admin' && pass==='EuAmo@MegaTv2026!'){
-              const res = await fetch(`${API}/login`,{method:"POST", headers:{"Content-Type":"application/json"}, body:JSON.stringify({user,pass})}).catch(()=>({json:()=>({token:'local'})}))
-              const data = await res.json().catch(()=>({token:'local'}))
-              localStorage.setItem('admin_token', data.token || 'local')
-              setToken(data.token || 'local')
-            }else alert('Usuário: admin | Senha: EuAmo@MegaTv2026!')
-          }} style={{width:'100%', padding:12, marginTop:14, borderRadius:10, background:'#fbbf24', fontWeight:900, border:0, cursor:'pointer'}}>ENTRAR</button>
+            if(user.trim()==='admin' && pass.trim()==='EuAmo@MegaTv2026!'){
+    localStorage.setItem('admin_token', 'local-logado');
+    setToken('local-logado');
+  } else {
+    alert("Usuario ou senha incorretos");
+  }
+}} style={{width:'100%', padding:12, marginTop:14, borderRadius:10, background:'#fbbf24', fontWeight:900, border:0, cursor:'pointer'}}>ENTRAR</button>
         </div>
       </div>
     )
