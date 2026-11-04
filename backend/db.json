@@ -1,1 +1,110 @@
-{"clientes":[],"planos":[],"aparencia":[{"nome":"Ação e Aventura","sub":"• TOP 10 HOJE","img":"https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg"},{"nome":"Séries para Maratonar","sub":"• COMPLETAS","img":"https://image.tmdb.org/t/p/w500/1E5baAaEse26fej7uHcjOgEE2t2.jpg"},{"nome":"Futebol Ao Vivo","sub":"• PREMIERE • ESPN","img":"https://images.unsplash.com/photo-1489944440615-453fc2b6a9a9?w=400"},{"nome":"Filmes Premiados","sub":"• OSCAR 2024","img":"https://image.tmdb.org/t/p/w500/qW4crfED8mpNDadSmMdi7ZDzhXF.jpg"},{"nome":"Kids e Família","sub":"• DESENHOS 4K","img":"https://image.tmdb.org/t/p/w500/vpnVM9B6NMmQpWeZvzLvDESb2QY.jpg"},{"nome":"Canais 24 Horas","sub":"• AO VIVO • 100+ CANAIS","img":"https://images.unsplash.com/photo-1593359677879-a4bb92f367d8?w=400"}]}
+{
+    "versao": "1.0.0",
+    "atualizadoEm": "2026-10-02T00:00:002",
+    "planos":[],
+    "clientes":[],
+    "categorias":[
+        {
+            "id": "cat_01",
+            "slug": "acao-aventura",
+            "nome": "Ação e Aventura",
+            "subtitulo": "TOP 10 HOJE",
+            "destaque": true,
+            "ordem": 1,
+            "imagem": {
+                "url": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+                "alt": "Banner categoria Ação e Aventura",
+                "width": 500,
+                "height": 750
+            
+            },
+            "meta": {
+                "totalTitulos": 0,
+                "tipo": "filmes"
+            
+            }
+        },
+        {
+            "id": "cat_02",
+      "slug": "series-maratonar",
+      "nome": "Séries para Maratonar",
+      "subtitulo": "COMPLETAS",
+      "destaque": false,
+      "ordem": 2,
+      "imagem": {
+        "url": "https://image.tmdb.org/t/p/w500/1E5baAaEse26fej7uHcjOgEE2t2.jpg",
+        "alt": "Banner Séries para Maratonar",
+        "width": 500,
+        "height": 750
+        },
+        "meta": {
+        "totalTitulos": 0,
+        "tipo": "series"
+    }
+    },
+    {
+      "id": "cat_03",
+      "slug": "futebol-ao-vivo",
+      "nome": "Futebol Ao Vivo",
+      "subtitulo": "PREMIERE • ESPN",
+      "destaque": true,
+      "ordem": 3,
+      "imagem": {
+        "url": "https://images.unsplash.com/photo-1489944440615-453fc2b6a9a9?w=400",
+        "alt": "Futebol ao vivo",
+        "width": 400,
+        "height": 600
+      },
+      "meta": {
+        "totalTitulos": 0,
+        "tipo": "esporte",
+        "avisoLegal": "Conteúdo apenas com licença de exibição"
+      }
+    },
+    {
+      "id": "cat_04",
+      "slug": "filmes-premiados",
+      "nome": "Filmes Premiados",
+      "subtitulo": "OSCAR 2024",
+      "destaque": false,
+      "ordem": 4,
+      "imagem": {
+        "url": "https://image.tmdb.org/t/p/w500/qW4crfED8mpNDadSmMdi7ZDzhXF.jpg",
+        "alt": "Filmes premiados Oscar",
+        "width": 500,
+        "height": 750
+      },
+      "meta": { "totalTitulos": 0, "tipo": "filmes" }
+    },
+    {
+      "id": "cat_05",
+      "slug": "kids-familia",
+      "nome": "Kids e Família",
+      "subtitulo": "DESENHOS 4K",
+      "destaque": false,
+      "ordem": 5,
+      "imagem": {
+        "url": "https://image.tmdb.org/t/p/w500/vpnVM9B6NMmQpWeZvzLvDESb2QY.jpg",
+        "alt": "Kids e Família",
+        "width": 500,
+        "height": 750
+      },
+      "meta": { "totalTitulos": 0, "tipo": "infantil" }
+    },
+    {
+      "id": "cat_06",
+      "slug": "canais-24h",
+      "nome": "Canais 24 Horas",
+      "subtitulo": "AO VIVO • 100+ CANAIS",
+      "destaque": true,
+      "ordem": 6,
+      "imagem": {
+        "url": "https://images.unsplash.com/photo-1593359677879-a4bb92f367d8?w=400",
+        "alt": "Canais 24 horas ao vivo",
+        "width": 400,
+        "height": 600
+      },
+      "meta": { "totalTitulos": 0, "tipo": "ao_vivo" }
+    }
+  ]
+}
